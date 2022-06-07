@@ -1,5 +1,8 @@
-# Compiled class file
-*.class
+# IDEA
+.idea
+
+# Target directory
+/target/*
 
 # Log file
 *.log
