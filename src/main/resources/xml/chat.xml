@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Root xsi:schemaLocation="http://namespace.com/ chat.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <users>
+        <user id="32">
+            <fullname>Ivanov Ivan Ivanovich</fullname>
+            <email>ivanov34ii@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2019-05-30 17:54:09</registered>
+            <address>Mira st. 8, 34</address>
+        </user>
+        <user id="12">
+            <fullname>Alexeev Dmitriy Sergeevich</fullname>
+            <email>alexeevDS12@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2018-01-19 09:01:13</registered>
+            <address>Stroiteley ave. 12, 41</address>
+        </user>
+        <user id="49">
+            <fullname>Mark Kruwcz</fullname>
+            <email>kruwczK311@gmail.com</email>
+            <country>Poland</country>
+            <town>Krakow</town>
+            <registered>2020-08-15 19:34:01</registered>
+            <address>ul. Combrowa 61, 20</address>
+        </user>
+        <user id="32">
+            <fullname>Ivanov Ivan Ivanovich</fullname>
+            <email>ivanov34ii@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2019-05-30 17:54:09</registered>
+            <address>Mira st. 8, 34</address>
+        </user>
+        <user id="67">
+            <fullname>Borisov Alexey Igorevich</fullname>
+            <email>borisov312x@gmail.com</email>
+            <country>Russia</country>
+            <town>Moscow</town>
+            <registered>2021-02-33 08:02:18</registered>
+            <address>Lenina st. 14, 36</address>
+        </user>
+        <user id="69">
+            <fullname>John Reet</fullname>
+            <email>reetJohnAb@gmail.com</email>
+            <country>United States</country>
+            <town>Detroit</town>
+            <registered>2020-08-15 03:34:21</registered>
+            <address>Evergreen ave., 21</address>
+        </user>
+        <user id="78">
+            <fullname>Sergeev Petr Igorevich</fullname>
+            <email>igorevichhhP1@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2019-01-20 11:14:09</registered>
+            <address>Mira st. 6B, 21</address>
+        </user>
+        <user id="87">
+            <fullname>Soev Alexander Maratovich</fullname>
+            <email>soevAx299@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2021-01-27 09:21:18</registered>
+            <address>Stroiteley ave. 13, 44</address>
+        </user>
+        <user id="88">
+            <fullname>Alexa Jills</fullname>
+            <email>jillAlexa900@gmail.com</email>
+            <country>United States</country>
+            <town>San-Francisco</town>
+            <registered>2021-02-17 04:21:19</registered>
+            <address>JohnPitch ave., 19</address>
+        </user>
+        <user id="93">
+            <fullname>Laurence Keen</fullname>
+            <email>theLauKeenPR@gmail.com</email>
+            <country>Austria</country>
+            <town>Vienna</town>
+            <registered>2021-03-16 21:12:58</registered>
+            <address>Wiesalm 20, 8962</address>
+        </user>
+        <user id="94">
+            <fullname>Zaboniev Petr Sergeevich</fullname>
+            <email>kjunencoded2122@gmail.com</email>
+            <country>Russia</country>
+            <town>Perm</town>
+            <registered>2021-04-13 08:21:20</registered>
+            <address>Zeleniy bul., 31</address>
+        </user>
+        <user id="101">
+            <fullname>Gregorieva Kira Ivanovna</fullname>
+            <email>gregorievaHR@gmail.com</email>
+            <country>Russia</country>
+            <town>Vladimir</town>
+            <registered>2021-04-21 12:21:34</registered>
+            <address>Stroiteley st. 23/2, 21,</address>
+        </user>
+        <user id="102">
+            <fullname>Dien Hoff</fullname>
+            <email>hoffDienDE@gmail.com</email>
+            <country>Germany</country>
+            <town>Erlangen</town>
+            <registered>2021-04-22 10:00:19</registered>
+            <address>Hüttenbich 7, 6600</address>
+        </user>
+        <user id="118">
+            <fullname>Anna Faulich</fullname>
+            <email>imAnna31745@gmail.com</email>
+            <country>Germany</country>
+            <town>Stuttgart</town>
+            <registered>2021-05-16 09:21:01</registered>
+            <address>Goethestrasse 13, 89346</address>
+        </user>
+    </users>
+</Root>
