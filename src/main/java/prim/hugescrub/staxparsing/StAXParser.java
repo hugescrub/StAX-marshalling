@@ -64,7 +64,7 @@ public class StAXParser extends AbstractParser {
                         } else if ("town".equals(localName)) {
                             current.setTown(tagContent);
                         } else if ("registered".equals(localName)) {
-                            current.setRegistered(formatter.parse(tagContent));
+                            current.setRegistered(formatter.parse(tagContent.replace('T', ' ')));
                         } else if ("address".equals(localName)) {
                             current.setAddress(tagContent);
                         }

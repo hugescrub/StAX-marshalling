@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Root xsi:schemaLocation="http://namespace.com/ chat.xsd"
+<Root xsi:noNamespaceSchemaLocation="chat.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <users>
@@ -9,7 +9,7 @@
             <email>ivanov34ii@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2019-05-30 17:54:09</registered>
+            <registered>2019-05-30T17:54:09</registered>
             <address>Mira st. 8, 34</address>
         </user>
         <user id="12">
@@ -17,7 +17,7 @@
             <email>alexeevDS12@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2018-01-19 09:01:13</registered>
+            <registered>2018-01-19T09:01:13</registered>
             <address>Stroiteley ave. 12, 41</address>
         </user>
         <user id="49">
@@ -25,15 +25,15 @@
             <email>kruwczK311@gmail.com</email>
             <country>Poland</country>
             <town>Krakow</town>
-            <registered>2020-08-15 19:34:01</registered>
+            <registered>2020-08-15T19:34:01</registered>
             <address>ul. Combrowa 61, 20</address>
         </user>
-        <user id="32">
+        <user id="33">
             <fullname>Ivanov Ivan Ivanovich</fullname>
             <email>ivanov34ii@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2019-05-30 17:54:09</registered>
+            <registered>2019-05-30T17:54:09</registered>
             <address>Mira st. 8, 34</address>
         </user>
         <user id="67">
@@ -41,7 +41,7 @@
             <email>borisov312x@gmail.com</email>
             <country>Russia</country>
             <town>Moscow</town>
-            <registered>2021-02-33 08:02:18</registered>
+            <registered>2021-02-28T08:02:18</registered>
             <address>Lenina st. 14, 36</address>
         </user>
         <user id="69">
@@ -49,7 +49,7 @@
             <email>reetJohnAb@gmail.com</email>
             <country>United States</country>
             <town>Detroit</town>
-            <registered>2020-08-15 03:34:21</registered>
+            <registered>2020-08-15T03:34:21</registered>
             <address>Evergreen ave., 21</address>
         </user>
         <user id="78">
@@ -57,7 +57,7 @@
             <email>igorevichhhP1@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2019-01-20 11:14:09</registered>
+            <registered>2019-01-20T11:14:09</registered>
             <address>Mira st. 6B, 21</address>
         </user>
         <user id="87">
@@ -65,7 +65,7 @@
             <email>soevAx299@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2021-01-27 09:21:18</registered>
+            <registered>2021-01-27T09:21:18</registered>
             <address>Stroiteley ave. 13, 44</address>
         </user>
         <user id="88">
@@ -73,7 +73,7 @@
             <email>jillAlexa900@gmail.com</email>
             <country>United States</country>
             <town>San-Francisco</town>
-            <registered>2021-02-17 04:21:19</registered>
+            <registered>2021-02-17T04:21:19</registered>
             <address>JohnPitch ave., 19</address>
         </user>
         <user id="93">
@@ -81,7 +81,7 @@
             <email>theLauKeenPR@gmail.com</email>
             <country>Austria</country>
             <town>Vienna</town>
-            <registered>2021-03-16 21:12:58</registered>
+            <registered>2021-03-16T21:12:58</registered>
             <address>Wiesalm 20, 8962</address>
         </user>
         <user id="94">
@@ -89,7 +89,7 @@
             <email>kjunencoded2122@gmail.com</email>
             <country>Russia</country>
             <town>Perm</town>
-            <registered>2021-04-13 08:21:20</registered>
+            <registered>2021-04-13T08:21:20</registered>
             <address>Zeleniy bul., 31</address>
         </user>
         <user id="101">
@@ -97,7 +97,7 @@
             <email>gregorievaHR@gmail.com</email>
             <country>Russia</country>
             <town>Vladimir</town>
-            <registered>2021-04-21 12:21:34</registered>
+            <registered>2021-04-21T12:21:34</registered>
             <address>Stroiteley st. 23/2, 21,</address>
         </user>
         <user id="102">
@@ -105,7 +105,7 @@
             <email>hoffDienDE@gmail.com</email>
             <country>Germany</country>
             <town>Erlangen</town>
-            <registered>2021-04-22 10:00:19</registered>
+            <registered>2021-04-22T10:00:19</registered>
             <address>Hüttenbich 7, 6600</address>
         </user>
         <user id="118">
@@ -113,7 +113,7 @@
             <email>imAnna31745@gmail.com</email>
             <country>Germany</country>
             <town>Stuttgart</town>
-            <registered>2021-05-16 09:21:01</registered>
+            <registered>2021-05-16T09:21:01</registered>
             <address>Goethestrasse 13, 89346</address>
         </user>
     </users>

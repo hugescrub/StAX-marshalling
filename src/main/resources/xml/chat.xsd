@@ -5,7 +5,7 @@
     <xs:element name="Root">
         <xs:complexType>
             <xs:sequence minOccurs="1" maxOccurs="1">
-                <xs:element name="users"/>
+                <xs:element name="users" type="users"/>
             </xs:sequence>
         </xs:complexType>
 
@@ -15,8 +15,13 @@
         </xs:key>
     </xs:element>
 
+    <xs:complexType name="users">
+        <xs:sequence>
+            <xs:element name="user" type="user" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
 
-    <xs:complexType name="messageDetails">
+    <xs:complexType name="user">
         <xs:sequence>
             <xs:element name="fullname" type="xs:string"/>
             <xs:element name="email" type="xs:string"/>
@@ -27,6 +32,4 @@
         </xs:sequence>
         <xs:attribute name="id" type="xs:unsignedInt" use="required" />
     </xs:complexType>
-
-
 </xs:schema>
