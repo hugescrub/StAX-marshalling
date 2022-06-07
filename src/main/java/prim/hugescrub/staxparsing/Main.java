@@ -4,12 +4,14 @@ import org.xml.sax.SAXException;
 
 import javax.xml.stream.XMLStreamException;
 import java.io.IOException;
+import java.io.Writer;
+import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Main {
-    public static void main(String[] args) throws XMLStreamException, IOException, SAXException {
+    public static void main(String[] args) throws XMLStreamException, IOException, InvocationTargetException, IllegalAccessException {
         String fileName = "xml/chat.xml";
         String schemaPath = ".\\src\\main\\resources\\xml\\chat.xsd";
         String xmlPath = ".\\src\\main\\resources\\xml\\chat.xml";
@@ -25,6 +27,12 @@ public class Main {
             for (User user : result) {
                 System.out.println(user);
             }
+
+            Users users = new Users(result);
+            HTMLGenerator generator = new HTMLGenerator();
+            Writer output = generator.generateHTML(users);
+            generator.createHTML(output);
+            System.out.println(output);
         }
     }
 }

@@ -53,7 +53,7 @@ public class StAXParser extends AbstractParser {
                     case XMLStreamConstants.END_ELEMENT:
                         localName = reader.getLocalName();
                         if ("user".equals(localName)) {
-                            // добавляем user в список после закрывающего тега user
+                            // добавляем юзера в список
                             userList.add(current);
                         } else if ("fullname".equals(localName)) {
                             current.setFullname(tagContent);
@@ -70,7 +70,6 @@ public class StAXParser extends AbstractParser {
                         }
                         break;
                 }
-
             }
             return userList;
         } catch (Exception e) {

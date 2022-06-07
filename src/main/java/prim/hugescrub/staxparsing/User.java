@@ -11,6 +11,10 @@ public class User {
     private Date registered;
     private String address;
 
+    public User(){
+
+    }
+
     public String getId() {
         return id;
     }
